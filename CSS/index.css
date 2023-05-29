@@ -1,0 +1,223 @@
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+
+header{
+    height: 300px;
+    width: 100%;
+    background-color: lightgrey;
+    margin-top: -49px !important; 
+    margin-left: -5px !important;
+}
+
+header, p{
+margin-top: -5px;
+margin-left: 100px;
+}
+
+header, h1{
+    margin-top: 50px;
+    margin-left: 95px;
+    }
+
+.line{
+    width: 90%;
+    height: 2px;
+    margin-left: -100px;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+.button-text{
+    margin-left: 95px;
+    margin-top: 20px;
+}
+
+.buttons{
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 95px;
+}
+
+.button1{
+    height: 40px;
+    width: 150px;
+    background-color: blue;
+    color: white;
+    border-color: transparent;
+    border-radius: 5%;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.button2{
+    height: 40px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    border-color: transparent;
+    border-radius: 5%;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.button3{
+    height: 40px;
+    width: 150px;
+    background-color: green;
+    color: white;
+    border-color: transparent;
+    text-align: center;
+    border-radius: 5%;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.button4{
+    height: 30px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    border-color: transparent;
+    text-align: center;
+    border-radius: 5%;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.button5{
+    height: 30px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    border-color: transparent;
+    text-align: center;
+    border-radius: 5%;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.button6{
+    height: 30px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    border-color: transparent;
+    text-align: center;
+    border-radius: 5%;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    margin-top: 30px;
+}
+  
+.column-design {
+    width: 200px;
+    height: 400px;
+    flex: 1;
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 5%;
+}
+
+.column-img1{
+    height: 200px;
+    background-image: url("/assets/subjects-01.jpg");
+    border-radius: 5% 5% 0 0;
+    background-position: center;
+    background-size: cover;
+}
+
+.column-dv {
+    width: 200px;
+    height: 400px;
+    flex: 1;
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 5%;
+}
+
+.column-img2{
+    height: 200px;
+    background-image: url("/assets/subjects-03.jpg");
+    border-radius: 5% 5% 0 0;
+    background-position: center;
+    background-size: cover;
+}
+
+.column-pd {
+    width: 200px;
+    height: 400px;
+    flex: 1;
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 5%;
+}
+
+.column-img3{
+    height: 200px;
+    background-image: url("/assets/subjects-02.jpg");
+    border-radius: 5% 5% 0 0;
+    background-position: center;
+    background-size: cover;
+}
+  
+.column-content {
+    padding-left: 10px;
+}
+
+.container-fluid{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+
+.sign-up{
+    width: 35%;
+    margin-right: 5%;
+    margin-top: 5px;
+}
+
+.sign-img{
+    width: 35%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+  
+label {
+    display: block;
+    font-weight: bold;
+}
+  
+input,select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.button-reg{
+    height: 35px;
+    width: 150px;
+    margin-top: 5px;
+    background-color: blue;
+    color: white;
+    border-color: transparent;
+    border-radius: 5px 5px 5px 5px;
+}
+
+footer{
+    height: 150px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 80px;
+}
